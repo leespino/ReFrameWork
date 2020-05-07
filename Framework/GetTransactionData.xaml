@@ -7,12 +7,12 @@
     <x:Property sap2010:Annotation.AnnotationText="Allow the optional addition of information about the transaction item." Name="out_TransactionField2" Type="OutArgument(x:String)" />
     <x:Property sap2010:Annotation.AnnotationText="Transaction ID used for information and logging purposes. Ideally, the ID should be unique for each transaction. " Name="out_TransactionID" Type="OutArgument(x:String)" />
     <x:Property sap2010:Annotation.AnnotationText="This variable can be used in case transactions are stored in a DataTable (for example, after being retrieved from a spreadsheet)." Name="io_TransactionData" Type="InOutArgument(sd:DataTable)" />
-    <x:Property Name="in_WIList" Type="InArgument(sd:DataRow[])" />
+    <x:Property Name="dt_WorkItems" Type="InArgument(sd:DataRow[])" />
   </x:Members>
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>716,1044</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>716,942</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>GetTransactionData_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -67,21 +67,21 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Get a transaction item from a specified source (e.g., spreadsheets, databases, email, web API or Orchestrator). &#xA;&#xA;TransactionItem is a DataRow" DisplayName="Get Transaction Data" sap:VirtualizedContainerService.HintSize="696,984" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Get a transaction item from a specified source (e.g., spreadsheets, databases, email, web API or Orchestrator). &#xA;&#xA;TransactionItem is a DataRow" DisplayName="Get Transaction Data" sap:VirtualizedContainerService.HintSize="696,882" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <If sap2010:Annotation.AnnotationText="This optional step can be used to include more information about a transaction item and it's used mainly for logging and visualization purposes.&#xA;For example, if transaction items are invoices, then the out_TransactionID can be the invoice number, out_TransactionField1 can be the invoice date and out_TransactionField2 can be the invoice amount." Condition="[in_TransactionNumber &lt;= in_WIList.Count()]" DisplayName="If a new transaction item is retrieved, get additional information about it" sap:VirtualizedContainerService.HintSize="654,830" sap2010:WorkflowViewState.IdRef="If_1">
+    <If sap2010:Annotation.AnnotationText="This optional step can be used to include more information about a transaction item and it's used mainly for logging and visualization purposes.&#xA;For example, if transaction items are invoices, then the out_TransactionID can be the invoice number, out_TransactionField1 can be the invoice date and out_TransactionField2 can be the invoice amount." Condition="[in_TransactionNumber &lt;= dt_WorkItems.Count]" DisplayName="If a new transaction item is retrieved, get additional information about it" sap:VirtualizedContainerService.HintSize="654,728" sap2010:WorkflowViewState.IdRef="If_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <If.Then>
-        <Sequence sap:VirtualizedContainerService.HintSize="346,597.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_4">
+        <Sequence sap:VirtualizedContainerService.HintSize="346,495.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_4">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -92,10 +92,10 @@
               <OutArgument x:TypeArguments="sd:DataRow">[out_TransactionItem]</OutArgument>
             </Assign.To>
             <Assign.Value>
-              <InArgument x:TypeArguments="sd:DataRow">[in_WIList(in_TransactionNumber)]</InArgument>
+              <InArgument x:TypeArguments="sd:DataRow">[dt_WorkItems(in_TransactionNumber)]</InArgument>
             </Assign.Value>
           </Assign>
-          <Sequence sap2010:Annotation.AnnotationText="Write data to the added log fields that identify the transaction." DisplayName="Add transaction information to log fields" sap:VirtualizedContainerService.HintSize="304,403.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence sap2010:Annotation.AnnotationText="Write data to the added log fields that identify the transaction." DisplayName="Add transaction information to log fields" sap:VirtualizedContainerService.HintSize="304,301.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -104,26 +104,18 @@
             </sap:WorkflowViewStateService.ViewState>
             <Assign DisplayName="Assign out_TransactionID" sap:VirtualizedContainerService.HintSize="262,62" sap2010:WorkflowViewState.IdRef="Assign_5">
               <Assign.To>
-                <OutArgument x:TypeArguments="x:String">[out_TransactionID]</OutArgument>
+                <OutArgument x:TypeArguments="sd:DataRow">[out_TransactionItem]</OutArgument>
               </Assign.To>
               <Assign.Value>
-                <InArgument x:TypeArguments="x:String">[out_TransactionItem("WIID").ToString]</InArgument>
+                <InArgument x:TypeArguments="sd:DataRow">[dt_WorkItems(in_TransactionNumber)]</InArgument>
               </Assign.Value>
             </Assign>
             <Assign DisplayName="Assign out_TransactionField1" sap:VirtualizedContainerService.HintSize="262,62" sap2010:WorkflowViewState.IdRef="Assign_6">
               <Assign.To>
-                <OutArgument x:TypeArguments="x:String">[out_TransactionField1]</OutArgument>
+                <OutArgument x:TypeArguments="x:String">[out_TransactionID]</OutArgument>
               </Assign.To>
               <Assign.Value>
-                <InArgument x:TypeArguments="x:String">[string.Empty]</InArgument>
-              </Assign.Value>
-            </Assign>
-            <Assign DisplayName="Assign out_TransactionField2" sap:VirtualizedContainerService.HintSize="262,62" sap2010:WorkflowViewState.IdRef="Assign_7">
-              <Assign.To>
-                <OutArgument x:TypeArguments="x:String">[out_TransactionField2]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="x:String">[string.Empty]</InArgument>
+                <InArgument x:TypeArguments="x:String">[out_TransactionItem("WIID").ToString]</InArgument>
               </Assign.Value>
             </Assign>
           </Sequence>
