@@ -8,7 +8,8 @@
       "Assemblies": [
         "C:\\Users\\leespino\\.nuget\\packages\\credentialmanagement/1.0.2\\lib/net35/CredentialManagement.dll",
         "C:\\Users\\leespino\\.nuget\\packages\\uipath.credentials.activities/1.1.6479.13204\\lib/net40-client/UiPath.Credentials.Activities.dll"
-      ]
+      ],
+      "Path": null
     },
     {
       "Package": {
@@ -28,7 +29,8 @@
         "C:\\Users\\leespino\\.nuget\\packages\\uipath.excel.activities/2.7.2\\lib/net461/UiPath.Excel.Activities.Design.dll",
         "C:\\Users\\leespino\\.nuget\\packages\\uipath.excel.activities/2.7.2\\lib/net461/UiPath.Excel.Activities.dll",
         "C:\\Users\\leespino\\.nuget\\packages\\uipath.excel.activities/2.7.2\\lib/net461/UiPath.Excel.dll"
-      ]
+      ],
+      "Path": null
     },
     {
       "Package": {
@@ -46,7 +48,8 @@
         "C:\\Users\\leespino\\.nuget\\packages\\uipath.mail.activities/1.7.2\\lib/net461/UiPath.Mail.Activities.Design.dll",
         "C:\\Users\\leespino\\.nuget\\packages\\uipath.mail.activities/1.7.2\\lib/net461/UiPath.Mail.Activities.dll",
         "C:\\Users\\leespino\\.nuget\\packages\\uipath.mail.activities/1.7.2\\lib/net461/UiPath.Mail.dll"
-      ]
+      ],
+      "Path": null
     },
     {
       "Package": {
@@ -119,7 +122,8 @@
         "C:\\Users\\leespino\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/xocr4.dll",
         "C:\\Users\\leespino\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/xocr5.dll",
         "C:\\Users\\leespino\\.nuget\\packages\\uipath.omnipage.bundle/1.0.2\\lib/net452/xocr6.dll"
-      ]
+      ],
+      "Path": null
     },
     {
       "Package": {
@@ -134,7 +138,8 @@
         "C:\\Users\\leespino\\.nuget\\packages\\uipath.persistence.activities/1.0.1\\lib/net461/UiPath.Persistence.Activities.Design.dll",
         "C:\\Users\\leespino\\.nuget\\packages\\uipath.persistence.activities/1.0.1\\lib/net461/UiPath.Persistence.Activities.dll",
         "C:\\Users\\leespino\\.nuget\\packages\\uipath.persistence.activities/1.0.1\\lib/net461/UiPath.Persistence.Orchestrator.Client.dll"
-      ]
+      ],
+      "Path": null
     },
     {
       "Package": {
@@ -157,7 +162,8 @@
         "C:\\Users\\leespino\\.nuget\\packages\\uipath.system.activities/18.3.6897.22524\\lib/net461/UiPath.OrchestratorClient.dll",
         "C:\\Users\\leespino\\.nuget\\packages\\uipath.system.activities/18.3.6897.22524\\lib/net461/UiPath.System.Activities.Design.dll",
         "C:\\Users\\leespino\\.nuget\\packages\\uipath.system.activities/18.3.6897.22524\\lib/net461/UiPath.System.Activities.dll"
-      ]
+      ],
+      "Path": null
     },
     {
       "Package": {
@@ -194,7 +200,8 @@
         "C:\\Users\\leespino\\.nuget\\packages\\uipath.vision/1.1.0\\lib/net452/UiPath.Vision.Core.dll",
         "C:\\Users\\leespino\\.nuget\\packages\\uipath.vision/1.1.0\\lib/net452/UiPath.Vision.Package.dll",
         "C:\\Users\\leespino\\.nuget\\packages\\uipath.vision/1.1.0\\lib/net452/UiPath.Vision.dll"
-      ]
+      ],
+      "Path": null
     }
   ],
   "Conflicts": [],
@@ -480,5 +487,357 @@
       "Version": "1.1.0",
       "Dependencies": []
     }
-  }
+  },
+  "AllPackages": [
+    {
+      "Package": {
+        "Id": "AvalonEdit",
+        "Version": "5.0.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\avalonedit\\5.0.3\\lib\\Net40\\ICSharpCode.AvalonEdit.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\avalonedit\\5.0.3"
+    },
+    {
+      "Package": {
+        "Id": "BouncyCastle",
+        "Version": "1.8.5"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\bouncycastle\\1.8.5\\lib\\BouncyCastle.Crypto.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\bouncycastle\\1.8.5"
+    },
+    {
+      "Package": {
+        "Id": "Caliburn.Micro",
+        "Version": "3.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\caliburn.micro\\3.0.1\\lib\\net45\\Caliburn.Micro.Platform.Core.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\caliburn.micro\\3.0.1\\lib\\net45\\Caliburn.Micro.Platform.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\caliburn.micro\\3.0.1\\lib\\net45\\System.Windows.Interactivity.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\caliburn.micro\\3.0.1"
+    },
+    {
+      "Package": {
+        "Id": "Caliburn.Micro.Core",
+        "Version": "3.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\caliburn.micro.core\\3.0.1\\lib\\net45\\Caliburn.Micro.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\caliburn.micro.core\\3.0.1"
+    },
+    {
+      "Package": {
+        "Id": "ClosedXML",
+        "Version": "0.87.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\closedxml\\0.87.1\\lib\\net40\\ClosedXML.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\closedxml\\0.87.1"
+    },
+    {
+      "Package": {
+        "Id": "CredentialManagement",
+        "Version": "1.0.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\credentialmanagement\\1.0.2\\lib\\net35\\CredentialManagement.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\credentialmanagement\\1.0.2"
+    },
+    {
+      "Package": {
+        "Id": "CsvHelper",
+        "Version": "2.13.5"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\csvhelper\\2.13.5\\lib\\net40-client\\CsvHelper.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\csvhelper\\2.13.5"
+    },
+    {
+      "Package": {
+        "Id": "DocumentFormat.OpenXml",
+        "Version": "2.5.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\documentformat.openxml\\2.5.0\\lib\\DocumentFormat.OpenXml.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\documentformat.openxml\\2.5.0"
+    },
+    {
+      "Package": {
+        "Id": "Extended.Wpf.Toolkit",
+        "Version": "2.8.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.AvalonDock.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.DataGrid.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.Toolkit.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0"
+    },
+    {
+      "Package": {
+        "Id": "Humanizer.Core",
+        "Version": "2.4.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\humanizer.core\\2.4.2\\lib\\netstandard2.0\\Humanizer.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\humanizer.core\\2.4.2"
+    },
+    {
+      "Package": {
+        "Id": "interop.domino.dll",
+        "Version": "1.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\interop.domino.dll\\1.0.0\\lib\\Interop.Domino.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\interop.domino.dll\\1.0.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Exchange.WebServices",
+        "Version": "2.2.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\lib\\40\\Microsoft.Exchange.WebServices.Auth.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\lib\\40\\Microsoft.Exchange.WebServices.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Rest.ClientRuntime",
+        "Version": "2.3.20"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.20\\lib\\net461\\Microsoft.Rest.ClientRuntime.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.20"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.VisualStudio.OLE.Interop",
+        "Version": "7.10.6071"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\7.10.6071\\lib\\Microsoft.VisualStudio.OLE.Interop.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\7.10.6071"
+    },
+    {
+      "Package": {
+        "Id": "Newtonsoft.Json",
+        "Version": "11.0.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\newtonsoft.json\\11.0.2\\lib\\net45\\Newtonsoft.Json.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\newtonsoft.json\\11.0.2"
+    },
+    {
+      "Package": {
+        "Id": "NPOI",
+        "Version": "2.4.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OOXML.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXml4Net.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\npoi\\2.4.1"
+    },
+    {
+      "Package": {
+        "Id": "SharpZipLib",
+        "Version": "1.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\sharpziplib\\1.0.0\\lib\\net45\\ICSharpCode.SharpZipLib.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\sharpziplib\\1.0.0"
+    },
+    {
+      "Package": {
+        "Id": "System.ValueTuple",
+        "Version": "4.5.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib\\net461\\System.ValueTuple.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\system.valuetuple\\4.5.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath",
+        "Version": "9.0.6893.27943"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath\\9.0.6893.27943\\lib\\UiPath.Interop.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\uipath\\9.0.6893.27943"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Credentials.Activities",
+        "Version": "1.1.6479.13204"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.credentials.activities\\1.1.6479.13204\\lib\\net40-client\\UiPath.Credentials.Activities.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\uipath.credentials.activities\\1.1.6479.13204"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Excel.Activities",
+        "Version": "2.7.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.excel.activities\\2.7.2\\lib\\net461\\UiPath.Excel.Activities.Design.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.excel.activities\\2.7.2\\lib\\net461\\UiPath.Excel.Activities.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.excel.activities\\2.7.2\\lib\\net461\\UiPath.Excel.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\uipath.excel.activities\\2.7.2"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.FormActivityLibrary.Contracts",
+        "Version": "1.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.formactivitylibrary.contracts\\1.0.0\\lib\\net461\\UiPath.Form.ActivityLibrary.Contracts.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\uipath.formactivitylibrary.contracts\\1.0.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Mail.Activities",
+        "Version": "1.7.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.mail.activities\\1.7.2\\lib\\net461\\MailKit.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.mail.activities\\1.7.2\\lib\\net461\\MimeKit.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.mail.activities\\1.7.2\\lib\\net461\\UiPath.Mail.Activities.Design.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.mail.activities\\1.7.2\\lib\\net461\\UiPath.Mail.Activities.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.mail.activities\\1.7.2\\lib\\net461\\UiPath.Mail.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\uipath.mail.activities\\1.7.2"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.OCR.Contracts",
+        "Version": "2.2.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.ocr.contracts\\2.2.1\\lib\\net45\\UiPath.OCR.Contracts.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\uipath.ocr.contracts\\2.2.1"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.OmniPage.Activities",
+        "Version": "1.2.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.omnipage.activities\\1.2.0\\lib\\net452\\UiPath.OmniPage.Activities.Design.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.omnipage.activities\\1.2.0\\lib\\net452\\UiPath.OmniPage.Activities.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.omnipage.activities\\1.2.0\\lib\\net452\\UiPath.OmniPage.Host32.exe",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.omnipage.activities\\1.2.0\\lib\\net452\\UiPath.Vision.OmniPage.Core.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.omnipage.activities\\1.2.0\\lib\\net452\\UiPath.Vision.OmniPage.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\uipath.omnipage.activities\\1.2.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.OmniPage.Bundle",
+        "Version": "1.0.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.omnipage.bundle\\1.0.2\\lib\\net452\\Nuance.OmniPage.CSDK.ArgTypes.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.omnipage.bundle\\1.0.2\\lib\\net452\\Nuance.OmniPage.CSDK.CAPI.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.omnipage.bundle\\1.0.2\\lib\\net452\\Nuance.OmniPage.CSDK.Objects.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\uipath.omnipage.bundle\\1.0.2"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Persistence.Activities",
+        "Version": "1.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.persistence.activities\\1.0.1\\lib\\net461\\UiPath.Orchestrator.Service.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.persistence.activities\\1.0.1\\lib\\net461\\UiPath.Persistence.Activities.Design.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.persistence.activities\\1.0.1\\lib\\net461\\UiPath.Persistence.Activities.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.persistence.activities\\1.0.1\\lib\\net461\\UiPath.Persistence.Orchestrator.Client.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\uipath.persistence.activities\\1.0.1"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.System.Activities",
+        "Version": "18.3.6897.22524"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.system.activities\\18.3.6897.22524\\lib\\net461\\ActiproSoftware.Docking.Wpf.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.system.activities\\18.3.6897.22524\\lib\\net461\\ActiproSoftware.Ribbon.Wpf.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.system.activities\\18.3.6897.22524\\lib\\net461\\ActiproSoftware.Shared.Wpf.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.system.activities\\18.3.6897.22524\\lib\\net461\\ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.system.activities\\18.3.6897.22524\\lib\\net461\\ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.system.activities\\18.3.6897.22524\\lib\\net461\\ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.system.activities\\18.3.6897.22524\\lib\\net461\\ActiproSoftware.Text.LLParser.Wpf.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.system.activities\\18.3.6897.22524\\lib\\net461\\ActiproSoftware.Text.Wpf.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.system.activities\\18.3.6897.22524\\lib\\net461\\ActiproSoftware.Wizard.Wpf.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.system.activities\\18.3.6897.22524\\lib\\net461\\UiPath.OrchestratorClient.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.system.activities\\18.3.6897.22524\\lib\\net461\\UiPath.System.Activities.Design.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.system.activities\\18.3.6897.22524\\lib\\net461\\UiPath.System.Activities.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\uipath.system.activities\\18.3.6897.22524"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.UIAutomation.Activities",
+        "Version": "18.3.6897.22543"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.uiautomation.activities\\18.3.6897.22543\\lib\\net461\\ActiproSoftware.Docking.Wpf.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.uiautomation.activities\\18.3.6897.22543\\lib\\net461\\ActiproSoftware.Editors.Wpf.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.uiautomation.activities\\18.3.6897.22543\\lib\\net461\\ActiproSoftware.Ribbon.Wpf.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.uiautomation.activities\\18.3.6897.22543\\lib\\net461\\ActiproSoftware.Shared.Wpf.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.uiautomation.activities\\18.3.6897.22543\\lib\\net461\\ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.uiautomation.activities\\18.3.6897.22543\\lib\\net461\\ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.uiautomation.activities\\18.3.6897.22543\\lib\\net461\\ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.uiautomation.activities\\18.3.6897.22543\\lib\\net461\\ActiproSoftware.Text.LLParser.Wpf.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.uiautomation.activities\\18.3.6897.22543\\lib\\net461\\ActiproSoftware.Text.Wpf.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.uiautomation.activities\\18.3.6897.22543\\lib\\net461\\ActiproSoftware.Wizard.Wpf.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.uiautomation.activities\\18.3.6897.22543\\lib\\net461\\UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.uiautomation.activities\\18.3.6897.22543\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.uiautomation.activities\\18.3.6897.22543\\lib\\net461\\UiPath.Wizards.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\uipath.uiautomation.activities\\18.3.6897.22543"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Vision",
+        "Version": "1.1.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.vision\\1.1.0\\lib\\net452\\UiPath.Vision.Core.dll",
+        "C:\\Users\\leespino\\.nuget\\packages\\uipath.vision\\1.1.0\\lib\\net452\\UiPath.Vision.dll"
+      ],
+      "Path": "C:\\Users\\leespino\\.nuget\\packages\\uipath.vision\\1.1.0"
+    }
+  ]
 }
